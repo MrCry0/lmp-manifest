@@ -107,6 +107,13 @@ Supported image targets:
 The default distribution (DISTRO) variable is automatically set to `lmp`,
 which is provided by the `meta-lmp` layer.
 
+Supported **DISTRO** targets:
+* lmp                     - Linux-microPlatform (default)
+* lmp-mfgtool             - Linux-microPlatform for Mfgtool (no ostree)
+* lmp-base                - Linux-microPlatform Base (no ostree)
+* lmp-xwayland            - Linux-microPlatform with XWayland
+* lmp-wayland             - Linux-microPlatform with Wayland
+
 Setup the work environment by using the `setup-environment` script:
 
 ```
