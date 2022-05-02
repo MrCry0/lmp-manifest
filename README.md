@@ -71,6 +71,7 @@ Supported **MACHINE** targets (officially tested by Foundries):
 * am64xx-evm
 * beaglebone-yocto
 * generic-arm64
+* imx6ulevk
 * imx6ullevk
 * imx6ullevk-sec
 * imx8mm-lpddr4-evk
